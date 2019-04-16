@@ -6,6 +6,7 @@
 #chat-dialog {
     height: 450px;
     overflow-y: auto;
+    border: solid 2px #d1d4e6;
 }
 
 #chat-input {
