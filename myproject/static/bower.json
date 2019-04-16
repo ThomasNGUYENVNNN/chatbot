@@ -1,0 +1,20 @@
+{
+  "name": "chatbot",
+  "homepage": "https://github.com/undertheseanlp/chatbot",
+  "authors": [
+    "anhv <anhv.ict91@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

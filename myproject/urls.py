@@ -21,6 +21,7 @@ from myproject import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^chatbot', views.chatbot),
+    url(r'^chatbot$', views.chatbot),
+    url(r'^chatbot_analyze', views.analyze),
     url(r'^admin/', admin.site.urls),
 ]

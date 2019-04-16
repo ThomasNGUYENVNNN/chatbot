@@ -5,7 +5,7 @@
 
 #chat-dialog {
     height: 450px;
-    overflow: scroll
+    overflow-y: auto;
 }
 
 #chat-input {

@@ -1,21 +1,26 @@
-<div id="chat-container" class="container">
+<!--<div id="chat-container" class="container">-->
+    <!--<div id="message" ng-show="showMessage">-->
+    <!--<p>Chào các bạn.</p>-->
+    <!--<p>Hà Nội nóng quá nên Hoài An đi du lịch đây. ✈✈✈</p>-->
+    <!--<p>Hẹn gặp lại các bạn.</p>-->
+    <!--<p><i>Hoài An</i></p>-->
+    <!--</div>-->
+<!--</div>-->
 
-    <div id="message" ng-show="showMessage">
-        <p>Chào các bạn.</p>
-        <p>Hà Nội nóng quá nên Hoài An đi du lịch đây. ✈✈✈</p>
-        <p>Hẹn gặp lại các bạn.</p>
-        <p><i>Hoài An</i></p>
+<div class="container-fluid page-body-wrapper" style="min-height: 200px">
+    <div class="main-panel" style="min-height: 30px; width: calc(100%);">
+        <div class="content-wrapper">
+            <div id="chat-dialog" ng-show="!showMessage">
+                <p ng-repeat="s in sentences track by $index">
+                    <b>{{ s.agent }}:</b> {{ s.text }}
+                </p>
+            </div>
+            <br/>
+            <input class="form-control" id="chat-input"
+                   ng-model="userText"
+                   placeholder="{{ suggestion }}"
+                   my-enter="addTalk()"
+                   ng-show="!showMessage">
+        </div>
     </div>
-
-    <div id="chat-dialog" ng-show="!showMessage">
-        <p ng-repeat="s in sentences track by $index">
-            <b>{{ s.agent }}:</b> {{ s.text }}
-        </p>
-    </div>
-    <br/>
-    <input class="form-control" id="chat-input"
-           ng-model="userText"
-           placeholder="{{ suggestion }}"
-           my-enter="addTalk()"
-           ng-show="!showMessage">
 </div>
