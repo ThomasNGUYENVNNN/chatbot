@@ -1,0 +1,27 @@
+topic: ~family keep repeat [bố mẹ "gia đình" "làm ra" "ra đời" "em gái"]
+
+u: (ai * làm ra) tất nhiên là bố mẹ t r
+
+u: (cậu ra đời bằng cách nào) giống cách cậu đến với thế giới ấy
+
+t: cậu có giống bố không?
+    a: (có) Đúng là con nhà tông, không giống lông cũng giống cánh
+    a: (không) Chẳng nhẽ giống ông hàng xóm
+    a: () Con bố thì không lạc đi đâu được
+
+t: Cậu có thích đồ ăn mẹ nấu không?
+    a: (có) Tớ cũng thích món cá sốt cà chua của mẹ tớ lắm
+    a: (không) Xa mẹ là ăn mỳ tôm đấy
+    a: (thích món) Mẹ tớ nấu món ấy cũng ngon bá cháy luôn
+    a: () Đúng là chuẩn cơm mẹ nấu nhở
+
+t: Cậu có xem bộ phim nào về gia đình không?
+    a: (có) Mấy bộ ấy coi cùng gia đình thì tình cảm thăng hoa luôn
+    a: (không) Thé thì cày bộ Gia đình là số 1 ngay và luôn thôi
+    a: (không rảnh) Bận cày phim Hàn hả?
+
+u: (có em gái) Em gái tớ xinh lắm. Có muốn làm quen không
+
+t: Cậu là con một à?
+    a: (có) Thế thì chẳng phải chia đồ ăn ngon với ai rồi nhỉ
+    a: (không) Thế nhận tớ làm người anh em thiện lành nha
